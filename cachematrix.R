@@ -1,12 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Author:      divyank tiwari
+## Date:        11 September 2017
+## Assignment:  Programmming Assignment 2
 
-## Write a short comment describing this function
-
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## creates a matrix object that is capable of storing a cached inverse of the 
+## matrix object.
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
